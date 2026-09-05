@@ -1,0 +1,11 @@
+﻿date,description,type,amount,supply_type,vat_rate
+5/8/2026,sale of groceries,sale,2500,standard,0.15
+8/8/2026,purchase of stock,purchase,1200,standard,0.15
+10/8/2026,consulting services,sale,3500,standard,0.15
+12/8/2026,office rent,purchase,800,standard,0.15
+15/8/2026,sale of electronics,sale,4200,standard,0.15
+18/8/2026,fuel purchase,purchase,300,standard,0.15
+20/8/2026,export sale,sale,5000,zero-rated,0
+22/8/2026,internet bill,purchase,150,standard,0.15
+25/8/2026,sale of furniture,sale,1800,standard,0.15
+28/8/2026,stationary purchase,purchase,200,standard,0.15
