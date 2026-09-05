@@ -12,8 +12,8 @@ total_purchases = df[df['type'] == 'purchase']['amount'].sum()
 total_transactions = len(df)
 
 # Calculate VAT
-output_vat = df[(df['type'] == 'sale') & (df['supply_type'] == 'Standard')]['amount'].sum() * 0.15
-input_vat = df[(df['type'] == 'purchase') & (df['supply_type'] == 'Standard')]['amount'].sum() * 0.15
+output_vat = df[df['type'] == 'sale']['amount'].sum() * 0.15
+input_vat = df[df['type'] == 'purchase']['amount'].sum() * 0.15
 vat_payable = output_vat - input_vat
 # --- END NEW ---
 
